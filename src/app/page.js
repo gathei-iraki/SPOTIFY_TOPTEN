@@ -13,6 +13,12 @@ return (
   <div className="relative z-10 flex flex-col items-center justify-center h-full space-y-4">
   <h1 className="text-white text-4xl fade-in">Welcome to Spotify Ten</h1>
   <h1 className="text-white text-3xl fade-in delay-1">Get to know your top ten Spotify tracks.</h1>
+  <button className="p-[3px] relative mt-2 mb-2">
+  <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+  <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+    GET STARTED
+  </div>
+</button>
 </div>
 
 
