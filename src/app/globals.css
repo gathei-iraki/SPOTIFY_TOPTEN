@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Add this to your CSS file */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slightly below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* In place */
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease forwards; /* Fade-in over 1 second */
+}
+
+.delay-1 {
+  animation-delay: 1s; /* Delay the second line by 1 second */
+}
